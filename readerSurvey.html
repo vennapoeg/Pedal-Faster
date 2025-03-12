@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px 0px 0px 0px;
+            height: 100px;
+            /* position: fixed; */
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+
+        .wrapper {
+            width: 100%;
+            margin: 0px auto;
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            text-align: left;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        }
+
+        h1 {
+            font-size: 240%;
+            margin-top: 140px;
+        }
+        
+       
+        .footer {
+            clear: both;
+            background: rgba(0,0,0,0.2);
+            padding: 5px 10px;
+        }
+        .footer p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            text-align: right;
+        }
+        .footer a {
+            color: #807c72;
+        }
+        article h1{
+            text-align: center;
+        }
+        article p {
+            margin-left: 100px;
+        }
+        .left {
+            float: left;
+            margin-right: 15px; /* Adds spacing between image and text */
+            width: auto; /* Adjust based on your needs */
+            max-width: 40%; /* Ensures image does not take too much space */
+        }
+
+        article p {
+             overflow: hidden; /* Ensures the text wraps around the floated image */
+            text-align: left; /* Align text to the left */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+        <div class="container_12">
+            <div class="grid_5">
+                <img src="images/logo.png" alt="Pedal Faster - The modern bicycle magazine" width="216" height="37" class="logo" />
+                <img src="images/header-triangle.png" alt="" width="116" height="100" />
+            </div>
+            <div class="nav grid_7">
+                <a href="index.html" class="current">home</a> /
+                <a href="news.html">news</a> / 
+                <a href="archives.html">archives</a> / 
+                <a href="about.html">about</a> / 
+                <a href="contact.html">contact</a>
+            </div>
+        </div>
+    </header>
+    <article>
+        <p><a href="index.html">Home</a></p>
+        <h1>Reader Survey: Share your thoughts with us!</h1>
+        
+        <p>
+            <img src="images/roadbiking.jpg" alt="" class="left">
+           
+            We constantly try to perfection our products and services. If there is something we can do for you,
+            please leave us a message. Your opinion is much valued by us.
+            <form action="http://www.example.com/review.php" method="get">
+                <fieldset>
+                    <legend>Your Details:</legend>
+                    <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br />
+                    <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br />
+                </fieldset><br />
+                <fieldset>
+                    <legend>Your Review:</legend>
+                    <p>
+                        <label for="hear-about">How did you hear about us?</label>
+                        <select name="referrer" id="hear-about">
+                            <option value="google">Google</option>
+                            <option value="friend">Friend</option>
+                            <option value="advert">Advert</option>
+                            <option value="other">Other</option>
+        
+                        </select>
+                    </p>
+                    <p>
+                        Would you visit again?<br />
+                        <label><input type="radio" name="rating" value="yes" />Yes</label>
+                        <label><input type="radio" name="rating" value="no" />No</label>
+                        <label><input type="radio" name="rating" value="maybe" />Maybe</label>
+                    </p>
+                    <p>
+                        <label for="comments">Comments:</label><br />
+                        <textarea id="comments" cols="40" rows="4"></textarea>
+                    </p>
+                    <p>
+                        <label><input type="checkbox" name="subscribe" checked="checked">Signe me up for email spams</label>
+                        <input type="submit" value="Submit review" />
+                    </p>
+                </fieldset>
+        
+            </form>
+        </p>
+        
+    </article>
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12">
+                    <a href="legalInformation.html">Legal Information</a> | 
+                    <a href="privacypolicy.html">Privacy Policy</a> | 
+                    <a href="">Copyright &copy; Pedal Faster 2025</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

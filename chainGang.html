@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px 0px 0px 0px;
+            height: 100px;
+            /* position: fixed; */
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+
+        .wrapper {
+            width: 100%;
+            margin: 0px auto;
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            text-align: left;
+           
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        }
+
+        h1 {
+            font-size: 240%;
+            margin-top: 140px;
+        }
+        .date {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        }
+       
+        .footer {
+            clear: both;
+            background: rgba(0,0,0,0.2);
+            padding: 5px 10px;
+        }
+        .footer p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            text-align: right;
+        }
+        .footer a {
+            color: #807c72;
+        }
+        article h1{
+            text-align: center;
+        }
+        article p {
+            margin-left: 100px;
+        }
+        .left {
+            float: left;
+            margin-right: 15px; /* Adds spacing between image and text */
+            width: auto; /* Adjust based on your needs */
+            max-width: 40%; /* Ensures image does not take too much space */
+        }
+
+        article p {
+             overflow: hidden; /* Ensures the text wraps around the floated image */
+            text-align: left; /* Align text to the left */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+        <div class="container_12">
+            <div class="grid_5">
+                <img src="images/logo.png" alt="Pedal Faster - The modern bicycle magazine" width="216" height="37" class="logo" />
+                <img src="images/header-triangle.png" alt="" width="116" height="100" />
+            </div>
+            <div class="nav grid_7">
+                <a href="index.html" class="current">home</a> /
+                <a href="news.html">news</a> / 
+                <a href="archives.html">archives</a> / 
+                <a href="about.html">about</a> / 
+                <a href="contact.html">contact</a>
+            </div>
+        </div>
+    </header>
+    <article>
+        <p><a href="index.html">Home</a></p>
+        <h1>Chain Gang: The evolution of the humble bike chain</h1>
+        
+        <p>
+            <img src="images/231606-00-d-446702.jpg" alt="" class="left">
+            <strong>The Development of the Bicycle Chain</strong><br/>
+            <br/>
+            When it comes to bike development, the 19th century was a real era of progression. In conjunction
+            with the industrial revolution, bicycles were increasingly becoming an affordable means of 
+            individual transport.<br/> 
+            The penny farthings which were customary to begin with didn’t use a chain to transfer power,
+            rather, the pedals transferred power directly to the front wheel they controlled. This increased
+            the risk of an accident, in addition to the height and lack of brakes, and meant that cycling
+            used to be a rather hazardous affair.  <br/>
+            <br/>
+            This would all change with the development of the safety bicycle. This was the first time a
+            bicycle had two wheels of the same size, with a front fork which tilted backwards and a saddle
+            that sat well behind the crankshaft. But this also meant that there needed to be a new way
+            for power to be transferred for this kind of bicycle, meaning that the development of the
+            safety bicycle also marked the birth of the chain drive. The power produced by the cyclist
+            was transferred via a chain ring, cog and chain specially developed for use on bicycles,
+            as it is today. The bicycle developed back in the 1870s was therefore a prototype for
+            the bicycles we ride today.<br/>
+            <br/>
+            At first, the power produced by the cyclist wasn’t transferred all that effectively due to
+            large amounts of friction. Resourceful engineers, like the Swiss Hans Renold, started to look
+            at the problem and identified the bicycle chain as the main area with room for improvement.
+            In 1880, he submitted a patent application for a roller chain he had developed and as such,
+            can be classed as the inventor of the modern-day bicycle chain. More innovation followed
+            in the 20th century with special gear chains for derailleur systems, the basic principle
+            of which we still use as standard today. Against this backdrop, we’d like to give you
+            some more detail on what modern bicycle chains look like. Read on to find out more...
+        </p>
+        
+    </article>
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12">
+                    <a href="legalInformation.html">Legal Information</a> | 
+                    <a href="privacypolicy.html">Privacy Policy</a> | 
+                    <a href="">Copyright &copy; Pedal Faster 2025</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

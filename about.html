@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="css/960_12_col.css">
+    <style>
+        @font-face {
+            font-family: 'QuicksandBook';
+            src: url('fonts/Quicksand_Book-webfont.eot');
+        }
+        body {
+            color: #ffffff;
+            background: #413f3b url("images/bg.jpg");
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 90%;
+            margin: 0px;
+            text-align: center;
+        }
+        a {
+            color: #b5c1ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        header {
+            background-image: url("images/bg-header.jpg");
+            padding: 0px 0px 0px 0px;
+            height: 100px;
+            /* position: fixed; */
+            top: 0px;
+            width: 100%;
+            z-index: 50;
+        }
+
+        .nav {
+            float: right;
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            padding: 45px 0px 0px 0px;
+        }
+
+        .wrapper {
+            width: 100%;
+            margin: 0px auto;
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            text-align: left;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            font-family: QuicksandBook, Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        }
+
+        h1 {
+            font-size: 240%;
+            margin-top: 140px;
+        }
+        .date {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            color: #b5c1ad;
+        }
+       
+        .footer {
+            clear: both;
+            background: rgba(0,0,0,0.2);
+            padding: 5px 10px;
+        }
+        .footer p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 75%;
+            text-align: right;
+        }
+        .footer a {
+            color: #807c72;
+        }
+        article h1{
+            text-align: center;
+        }
+        article p {
+            margin-left: 100px;
+        }
+        .left {
+            float: left;
+            margin-right: 15px; /* Adds spacing between image and text */
+            width: auto; /* Adjust based on your needs */
+            max-width: 40%; /* Ensures image does not take too much space */
+        }
+
+        article p {
+             overflow: hidden; /* Ensures the text wraps around the floated image */
+            text-align: left; /* Align text to the left */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+        <div class="container_12">
+            <div class="grid_5">
+                <img src="images/logo.png" alt="Pedal Faster - The modern bicycle magazine" width="216" height="37" class="logo" />
+                <img src="images/header-triangle.png" alt="" width="116" height="100" />
+            </div>
+            <div class="nav grid_7">
+                <a href="index.html" class="current">home</a> /
+                <a href="news.html">news</a> / 
+                <a href="archives.html">archives</a> / 
+                <a href="about.html">about</a> / 
+                <a href="contact.html">contact</a>
+            </div>
+        </div>
+    </header>
+    <article>
+        <p><a href="index.html">Home</a></p>
+        <h1>About Us</h1>
+        
+        <p>
+            <img src="images/ratas1.jpg" alt="" class="left">
+            Pedal Faster is a magazine that specializes giving you the newest information
+            in the bicycle world. We can help you to choose a new bicycle, building it
+            especially for you, or then help you to repair your old one. Over the years we have 
+            managed to collect enormous knowledge in the field of bicycles and our goal is to offer
+            you the best there is available. <br/>
+            We also try to keep you up to date with events in bicycle world like tournaments and races...
+            
+        </p>
+        
+    </article>
+        <div class="footer clearfix">
+            <div class="container_12">
+                <p class="grid_12">
+                    <a href="legalInformation.html">Legal Information</a> | 
+                    <a href="privacypolicy.html">Privacy Policy</a> | 
+                    <a href="">Copyright &copy; Pedal Faster 2025</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
